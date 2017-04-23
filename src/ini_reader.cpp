@@ -1,7 +1,9 @@
-/* ini_reader.cpp
-Alexander Wickes
-September 20, 2010
-*/
+/**
+ * Mightex CCD Interface
+ * Copyright 2011 Alexander Wickes
+ * This work is licensed under the MIT license,
+ * subject to all terms as reproduced in the included LICENSE file.
+ */
 
 #include "ini_reader.h"
 #include <cstring>

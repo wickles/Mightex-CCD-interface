@@ -1,12 +1,9 @@
-/* Star_Tracker.cpp
-Mightex Interface by Alexander Wickes
-July 6, 2011
-
-This program connects to a Mightex CCD Camera, model CGE-B013-U, in order to capture
-images.
-
-Settings are loaded from settings.txt.
-*/
+/**
+ * Mightex CCD Interface
+ * Copyright 2011 Alexander Wickes
+ * This work is licensed under the MIT license,
+ * subject to all terms as reproduced in the included LICENSE file.
+ */
 
 #include "stdafx.h"
 
