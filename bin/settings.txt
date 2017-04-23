@@ -1,0 +1,21 @@
+// Settings for all cameras are loaded from this file. Dark images for camera XX are loaded from darkXX.raw.
+
+[Global Settings]
+NumberOfCameras = 1			// Total numbers of Mightex CCD cameras
+TriggerMode =	FALSE		// Enable trigger mode for all cameras
+CaptureDelay =	100			// milliseconds -- all cameras -- note that some cameras only run at 14-15 fps
+BitMode =		12			// 8 or 12 bits (8 bits not guaranteed to work)
+
+[Camera 01]
+C01_ResHoriz =		1280	// Horizontal resolution. These values must be multiples of 8.
+C01_ResVert =		960		// Vertical resolution. See documentation for maximum resolution for your camera.
+C01_BinMode =		1		// Bin mode, 1 x n vertical binning
+C01_ExposureTime =	100		// milliseconds (1 - 200,000)
+C01_RedGain =		41		// --
+C01_GreenGain =		41		// dB (6 - 41)
+C01_BlueGain =		41		// --
+C01_DarkCoeff =		0.75	// Coefficient to multiply dark image by before subtracting from CCD image.
+C01_DumpImages =	FALSE	// Dump raw image data
+
+[Camera XX]
+// Copy and paste above for more cameras, replacing C01 with CXX for camera XX.
